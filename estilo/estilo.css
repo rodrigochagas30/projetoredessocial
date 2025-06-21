@@ -34,5 +34,29 @@ main{
     height: 627px;
     width: 311px;
     background: url('../imagem/frame-iphone.png') no-repeat; 
-    
+}
+
+iframe#tela{
+    position: relative;
+    top: 81px;
+    left: 23px;
+    width: 265px;
+    height: 469px;
+
+}
+
+section#redes{
+    text-align: right;
+}
+
+section#redes img{
+    height: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.233);
+    box-sizing: border-box;
+}
+
+section#redes img:hover{
+    border: 2px solid white ;
 }
